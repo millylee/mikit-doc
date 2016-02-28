@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-cms-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiKit</title>
+    <link rel="stylesheet" href="css/pure-min.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+    <div id="layout">
+        <!-- 导航 -->
+        <a href="#menu" id="menuLink" class="menu-link">
+            <span></span>
+        </a>
+        <div id="menu">
+            <div class="pure-menu">
+                <a class="pure-menu-heading" href="###">99知识平台</a>
+                <ul class="pure-menu-list">
+                    <li class="pure-menu-item"><a href="doc/intro.md" class="pure-menu-link">简介</a></li>
+                    <li class="pure-menu-item"><a href="doc/changelog.md" class="pure-menu-link">版本记录</a></li>
+                    <li class="pure-menu-item menu-item-divided"><a href="doc/setting.md" class="pure-menu-link">全局设置</a></li>
+                    <li class="pure-menu-item"><a href="doc/scaffolding.md" class="pure-menu-link">脚手架功能</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- /导航 -->
+        <!-- 主体 -->
+        <div id="main">
+            <div class="header"></div>
+            <div class="content"></div>
+        </div>
+        <!-- /主体 -->
+    </div>
+    <!-- 头部进度条 -->
+    <div id="progress" class="progress"><div class="progress-bar"></div></div>
+    <!-- /头部进度条 -->
+    <script src="js/lib/markd.js"></script>
+    <script src="js/lib/highlight.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
