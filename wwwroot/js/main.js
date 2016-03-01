@@ -120,6 +120,7 @@ var Midoc = function() {
                         document.querySelector('.header').appendChild(titBlock);
 
                         self.loadProgress(Math.floor(Math.random() * 20) + 80);
+                        document.body.scrollTop = '0';
                     } else {
                         progress.style.opacity = "0";
                         alert('页面载入失败：' + xhr.status + ' - ' + xhr.statusText);
