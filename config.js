@@ -1,6 +1,6 @@
 // read more config, see: https://docute.js.org/#/zh-Hans/
 self.$config = {
-    url: 'http://mikit.milly.me',
+    url: 'http://mikit.milly.me/#/readme.md',
     'edit-link': 'https://github.com/millylee/mikit-doc/blob/gh-pages/',
     // 导航设置
     nav: [
