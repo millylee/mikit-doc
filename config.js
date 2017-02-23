@@ -1,7 +1,10 @@
 // read more config, see: https://docute.js.org/#/zh-Hans/
 self.$config = {
+    // 站点域名
     url: 'http://mikit.milly.me/',
+    // 设置文章编辑地址
     'edit-link': 'https://github.com/millylee/mikit-doc/blob/gh-pages',
+    // 首页文件，如果不设置不能访问首页
     home: 'readme.md',
     // 导航设置
     nav: [
