@@ -369,7 +369,7 @@ Webpack 入口文件配置，这里设置哪些文件要被打包成入口文件
 if (PRODUCTION) {
     console.log('生产环境');
 } else {
-console.log('开发环境');
+    console.log('开发环境');
 }
 ```
 
