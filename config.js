@@ -1,10 +1,10 @@
 // read more config, see: https://docute.js.org/#/zh-Hans/
 self.$config = {
-    url: 'http://mikit.milly.me/#/readme.md',
+    url: 'http://mikit.milly.me/',
     'edit-link': 'https://github.com/millylee/mikit-doc/blob/gh-pages/',
     // 导航设置
     nav: [
-        {title: '首页', path: '/readme.md'},
+        {title: '首页', path: '/'},
         {title: '更新日志', path: '/changelog.md'}
     ],
     // 默认隐藏侧边栏
