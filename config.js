@@ -13,5 +13,4 @@ self.$config = {
     disableSidebarToggle: false,
     // 使用登录页，默认为 landing.html
     // landing: 'xx.html' 也可以自己指定，支持html与md
-    landing: false,
 };
