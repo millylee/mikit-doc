@@ -25,6 +25,5 @@ self.$config = {
             indexName: 'mikit',
             debug: true
         })
-    ],
-    url: 'http://mikit.milly.me'
+    ]
 };
