@@ -17,5 +17,13 @@ self.$config = {
     disableSidebarToggle: false,
     // 使用登录页，默认为 landing.html
     // landing: 'xx.html' 也可以自己指定，支持html与md
-    landing: false
+    landing: false,
+    // docsearch 方法由插件提供
+    plugins: [
+        docsearch({
+            apiKey: 'c18f5c7db1b18faa507820d89c56415d',
+            indexName: 'mikit'
+        })
+    ],
+    url: 'http://mikit.milly.me'
 };
