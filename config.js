@@ -22,7 +22,8 @@ self.$config = {
     plugins: [
         docsearch({
             apiKey: 'c18f5c7db1b18faa507820d89c56415d',
-            indexName: 'mikit'
+            indexName: 'mikit',
+            debug: true
         })
     ],
     url: 'http://mikit.milly.me'
