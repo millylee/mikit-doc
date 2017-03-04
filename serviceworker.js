@@ -1,6 +1,6 @@
 var cacheName = 'mikit-doc';
 var cacheList = [
-    self.location.hostname,
+    'https://millylee.github.io/mikit-doc/',
     'https://unpkg.com'
 ];
 
