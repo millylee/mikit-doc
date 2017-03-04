@@ -1,7 +1,7 @@
 var cacheName = 'mikit-doc';
 var cacheList = [
     self.location.hostname,
-    'unpkg.com'
+    'https://unpkg.com'
 ];
 
 self.addEventListener('install', function (e) {
