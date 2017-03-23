@@ -12,17 +12,21 @@
 
 <body>
   <div id="app"></div>
-  <script src="https://unpkg.com/docute@1.12.0/plugins/docsearch.js"></script>
-  <script src="config.js"></script>
+  <script src="https://unpkg.com/docute@latest/plugins/docsearch.js"></script>
   <script src="https://unpkg.com/docute@latest/dist/docute.js"></script>
+  <script src="config.js"></script>
   <script>
-    window.ga = window.ga || function () { (ga.q = ga.q || []).push(arguments) }; ga.l = +new Date;
+    window.ga = window.ga || function () {
+      (ga.q = ga.q || []).push(arguments)
+    };
+    ga.l = +new Date;
     ga('create', 'UA-92540324-1', 'auto');
     ga('send', 'pageview');
     docute.router.afterEach(function (to) {
       ga('set', 'page', to.fullPath);
       ga('send', 'pageview');
     });
+
     // service worker register
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('serviceworker.js');
