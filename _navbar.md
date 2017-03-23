@@ -1,2 +1,2 @@
-- [首页](/)
+- [首页](/readme.md)
 - [更新日志](/changelog.md)
